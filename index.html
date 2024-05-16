@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro sobre el Bulldog Francés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Bulldog Francés</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca del Libro</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Descubre todo sobre el Bulldog Francés en nuestro libro exclusivo.</p>
+    </section>
+    <section id="acerca">
+        <h2>Acerca del Libro</h2>
+        <p>Nuestro libro ofrece una guía completa sobre el cuidado, entrenamiento y la historia del Bulldog Francés.</p>
+        <img src="bulldog.jpg" alt="Bulldog Francés">
+    </section>
+    <section id="comprar">
+        <h2>Compra el Libro</h2>
+        <p>Precio: 20€</p>
+        <button>Comprar Ahora</button>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bulldog Francés. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
